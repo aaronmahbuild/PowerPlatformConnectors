@@ -5,8 +5,8 @@
         "type": "securestring",
         "uiDefinition": {
           "displayName": "API Key",
-          "description": "The API Key for this api",
-          "tooltip": "Provide your API Key",
+          "description": "Enter 'Bearer' followed by a space and your Airtable Personal Access Token (e.g., Bearer patXXX...).",
+          "tooltip": "Create a token at https://airtable.com/create/tokens. Enter as: Bearer YOUR_TOKEN",
           "constraints": {
             "tabIndex": 2,
             "clearText": false,
@@ -17,7 +17,8 @@
     },
     "iconBrandColor": "#da3b01",
     "capabilities": [],
-    "publisher": "Woong Choi",
+    "policyTemplateInstances": [],
+    "publisher": "Aaron Mah",
     "stackOwner": "Formagrid, Inc."
   }
 }
